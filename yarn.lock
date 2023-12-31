@@ -710,7 +710,7 @@
     "@unocss/preset-mini" "0.58.2"
     "@unocss/rule-utils" "0.58.2"
 
-"@unocss/reset@0.58.2":
+"@unocss/reset@0.58.2", "@unocss/reset@^0.58.2":
   version "0.58.2"
   resolved "https://registry.yarnpkg.com/@unocss/reset/-/reset-0.58.2.tgz#3448173bb735b3f9d800b66264d6d9b10f624733"
   integrity sha512-ZzskZzrs7fPoKWrSpF1vehIr8TI7u4eS+MSurE0qUXatg0/nsXAZvaFYu0obu1kWrmnHyzA7G+m6LMX1h1tT7Q==
@@ -1415,11 +1415,6 @@ readdirp@~3.6.0:
   integrity sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
   dependencies:
     picomatch "^2.2.1"
-
-reset-css@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/reset-css/-/reset-css-5.0.2.tgz#67432ee97f1dc133b87b7e1475cdf0bd19556ed8"
-  integrity sha512-YtgUGSq5z5W0NPSjsBW7ys7rtWa8P8AiE7S6Fg3d1TQCPpAodgYyLuZYlU0AOsLtprk/fC9ormHN/0pAavVIDw==
 
 reusify@^1.0.4:
   version "1.0.4"

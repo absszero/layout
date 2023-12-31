@@ -66,8 +66,6 @@
 </script>
 
 <style>
-@import 'reset-css';
-
 /* block */
 body {
   font-family: "PingFang TC", "Heiti TC", "微軟正黑體", sans-serif;
