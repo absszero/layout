@@ -1,7 +1,17 @@
 <template>
   <!-- https://freewebsitetemplates.com/preview/rehabilitation-yoga/about.html -->
-  <div class="container w-4xl ma">
+  <div class="container w-full sm:w-4xl sm:ma">
     <div class="header p8">
+      <div class="menu flex flex-col items-end">
+        <i class="checked:i-carbon:close border i-carbon:menu sm:hidden text-green-300 text-size-5xl" />
+        <ul class="bg-green-900/70 absolute top-24 right-0 sm:hidden text-gray-200 uppercase border- border-green-300 [&>li]:p-3 [&>li]:border-b [&>li]:border-green-300 w-95%">
+          <li><a href="">Home</a></li>
+          <li class="active bg-green-400 text-white"><a href="">About</a></li>
+          <li><a href="">Classes</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Blog</a> </li>
+        </ul>
+      </div>
       <div class="title text-center">
         <h1
           text="size-5xl green-400"
@@ -11,8 +21,8 @@
           class="font-thin uppercase" >Rehabilitation Yoga</h2>
       </div>
     </div>
-    <nav class="nav p3 w-full">
-      <ul class="flex justify-evenly space-x-10 text-gray-200 uppercase" id="menu">
+    <nav class="nav p3 hidden sm:w-full sm:block">
+      <ul class="flex justify-evenly space-x-10 text-gray-200 uppercase">
         <li><a href="">Home</a></li>
         <li class="active"><a href="">About</a></li>
         <li><a href="">Classes</a></li>
@@ -20,7 +30,7 @@
         <li><a href="">Blog</a> </li>
       </ul>
     </nav>
-    <div class="content bg-white p10 mb-5 font-thin flex">
+    <div class="content bg-white p10 mb-5 font-thin sm:flex">
       <div class="main [&>h2]:text-size-xl [&>p]:mb-6 text-size-sm leading-7">
         <h1 class="text-green-500 text-size-4xl mb-6">About</h1>
         <h2>We Have Free Templates for Everyone</h2>
@@ -49,12 +59,12 @@
       <div class="side flex flex-col justify-end"><img src="https://freewebsitetemplates.com/preview/rehabilitation-yoga/images/lady-in-yoga.jpg"
           alt="" class="src max-w-96"></div>
     </div>
-    <div class="footer flex justify-between w-full">
-      <div class="address">
-        <h3 class="text-green-300 text-size-2xl">123 St. City Location, Country | 987654321</h3>
+    <div class="footer flex flex-col sm:flex-row sm:text-left text-center items-center sm:justify-between w-full">
+      <div class="address mb-8">
+        <h3 class="text-green-300 text-size-2xl sm:mb-0">123 St. City Location, Country | 987654321</h3>
         <span class="text-white text-size-sm font-light"> © 2023 by Belle & Carrie Rehabilitation Yoga. All rights reserved. </span>
       </div>
-      <div class="social mb-20">
+      <div class="social mb-5">
         <ul class="flex text-green-300 text-size-3xl space-x-4">
           <li class="i-fa6-brands:facebook-f"></li>
           <li class="i-fa6-brands:twitter"></li>
