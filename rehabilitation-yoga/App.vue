@@ -1,14 +1,18 @@
 <template>
   <!-- https://freewebsitetemplates.com/preview/rehabilitation-yoga/about.html -->
-  <div class="container">
-    <div class="header">
-      <div class="title">
-        <h1>Belle & Carrie</h1>
-        <h2>Rehabilitation Yoga</h2>
+  <div class="container w-4xl ma">
+    <div class="header p8">
+      <div class="title text-center">
+        <h1
+          text="size-5xl green-400"
+          class="font-light">Belle & Carrie</h1>
+        <h2
+          text="size-2xl wider white"
+          class="font-thin uppercase" >Rehabilitation Yoga</h2>
       </div>
     </div>
-    <nav class="nav">
-      <ul id="menu">
+    <nav class="nav p3 w-full">
+      <ul class="flex justify-evenly space-x-10 text-gray-200 uppercase" id="menu">
         <li><a href="">Home</a></li>
         <li class="active"><a href="">About</a></li>
         <li><a href="">Classes</a></li>
@@ -16,9 +20,9 @@
         <li><a href="">Blog</a> </li>
       </ul>
     </nav>
-    <div class="content">
-      <div class="main">
-        <h1>About</h1>
+    <div class="content bg-white p10 mb-5 font-thin flex">
+      <div class="main [&>h2]:text-size-xl [&>p]:mb-6 text-size-sm leading-7">
+        <h1 class="text-green-500 text-size-4xl mb-6">About</h1>
         <h2>We Have Free Templates for Everyone</h2>
 
         <p>Our website templates are created with inspiration, checked for quality and originality and meticulously sliced
@@ -42,20 +46,20 @@
           Rehabilitation Yoga Web Template. Website Template design by Free Website Templates. Please feel free to remove
           some or all the text and links of this page and replace it with your own About content.</p>
       </div>
-      <div class="side"><img src="https://freewebsitetemplates.com/preview/rehabilitation-yoga/images/lady-in-yoga.jpg"
-          alt="" class="src"></div>
+      <div class="side flex flex-col justify-end"><img src="https://freewebsitetemplates.com/preview/rehabilitation-yoga/images/lady-in-yoga.jpg"
+          alt="" class="src max-w-96"></div>
     </div>
-    <div class="footer">
+    <div class="footer flex justify-between w-full">
       <div class="address">
-        <h3>123 St. City Location, Country | 987654321</h3>
-        <span> © 2023 by Belle & Carrie Rehabilitation Yoga. All rights reserved. </span>
+        <h3 class="text-green-300 text-size-2xl">123 St. City Location, Country | 987654321</h3>
+        <span class="text-white text-size-sm font-light"> © 2023 by Belle & Carrie Rehabilitation Yoga. All rights reserved. </span>
       </div>
-      <div class="social">
-        <ul>
-          <li class="fb"><a href="">Facebook</a></li>
-          <li class="twitter"><a href="">Twitter</a></li>
-          <li class="google"><a href="">Google+</a></li>
-          <li class="pinterest"><a href="">Pinterest</a> </li>
+      <div class="social mb-20">
+        <ul class="flex text-green-300 text-size-3xl space-x-4">
+          <li class="i-fa6-brands:facebook-f"></li>
+          <li class="i-fa6-brands:twitter"></li>
+          <li class="i-fa6-brands:google-plus-g"></li>
+          <li class="i-fa6-brands:pinterest"></li>
         </ul>
       </div>
     </div>
@@ -72,198 +76,4 @@ body {
   font-size: 16px;
   background-color: #077054;
 }
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.header {
-  margin: 30px auto;
-}
-
-.content {
-  background-color: #ffffff;
-  margin-bottom: 25px;
-  padding: 35px;
-  display: flex;
-}
-
-.content .side {
-  display: flex;
-  align-items: end;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer .social {
-  display: flex;
-}
-
-/* style */
-.header .title {
-  text-align: center;
-}
-
-.header .title h1 {
-  font-size: 3rem;
-  color: #99fa99;
-  margin-bottom: 15px;
-}
-
-.header .title h2 {
-  font-size: 1.7rem;
-  color: #b6d8cf;
-  font-weight: lighter;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.nav {
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-.nav ul li {
-  display: inline-block;
-  padding: 0 30px;
-}
-
-.nav a {
-  color: #b6d8cf;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.nav li.active a {
-  color: #99fa99;
-}
-
-.nav a:hover {
-  color: #d3a3ff;
-}
-
-.content h1 {
-  font-size: 2.5rem;
-  font-weight: lighter;
-  margin-bottom: 35px;
-  color: #21a51e;
-}
-
-.content h2 {
-  font-size: 1.5rem;
-  font-weight: lighter;
-  margin-bottom: 5px;
-  color: #315f52;
-}
-
-.content p {
-  font-size: 0.9rem;
-  line-height: 1.5em;
-  margin-bottom: 25px;
-}
-
-.footer h3 {
-  color: #99fa99;
-  font-size: 1.5rem;
-  margin-bottom: 5px;
-}
-
-.footer span {
-  color: #b6d8cf;
-  font-size: 0.85rem;
-}
-
-.footer .social li {
-  display: inline-block;
-  background: url("https://freewebsitetemplates.com/preview/rehabilitation-yoga/images/icons.png") no-repeat;
-  text-indent: -999999px;
-  height: 30px;
-  width: 37px;
-  margin-left: 15px;
-}
-
-.social li.fb {
-  background-position: 12px 0;
-}
-
-.social li.twitter {
-  background-position: 0 -30px;
-}
-
-.social li.google {
-  background-position: 0 -62px;
-}
-
-.social li.pinterest {
-  background-position: 0 -94px;
-}
-
-@media screen and (max-width: 767px) {
-  .container {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .header {
-    margin-top: 75px;
-  }
-
-  .nav {
-    display: none;
-    border: 1px solid #99fa99;
-    background-color: rgba(7, 112, 84, 0.9);
-    text-align: left;
-    width: 90%;
-    position: absolute;
-    top: 71px;
-  }
-
-  .nav ul li {
-    display: block;
-    border: 1px solid #99fa99;
-    padding: 15px;
-  }
-
-  .nav li.active {
-    background-color: rgba(153, 250, 153, 0.9);
-  }
-
-  .nav li.active a {
-    color: #ffffff;
-  }
-
-  .nav a {
-    color: #ffffff;
-    font-weight: bold;
-  }
-
-  .content {
-    flex-direction: column;
-  }
-
-  .content .side {
-    justify-content: flex-end;
-  }
-
-  .footer {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer h3 {
-    margin-bottom: 15px;
-  }
-
-  .address {
-    margin-bottom: 20px;
-  }
-
-  .social {
-    margin-bottom: 20px;
-  }
-}</style>
+</style>

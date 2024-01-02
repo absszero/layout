@@ -418,7 +418,14 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.19.11.tgz#a5d300008960bb39677c46bf16f53ec70d8dee04"
   integrity sha512-vfkhltrjCAb603XaFhqhAF4LGDi2M4OrCRrFusyQ+iTLQ/o60QQXxc9cZC/FFpihBI9N1Grn6SMKVJ4KP7Fuiw==
 
-"@iconify/types@^2.0.0":
+"@iconify-json/fa6-brands@^1.1.18":
+  version "1.1.18"
+  resolved "https://registry.yarnpkg.com/@iconify-json/fa6-brands/-/fa6-brands-1.1.18.tgz#f950568d45b5b79e29b301c0b3537ebad8b02bbc"
+  integrity sha512-vmeJP06Xbj0XbVGiBHg0q8H3M894d4bGXKCmiHt6JqUdpiGcIV7r96N+BOU4ZS1+hvpV57fTfXlFPiUfxAIfkg==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify/types@*", "@iconify/types@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
   integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
@@ -683,7 +690,7 @@
     "@unocss/core" "0.58.2"
     "@unocss/preset-mini" "0.58.2"
 
-"@unocss/preset-uno@0.58.2", "@unocss/preset-uno@^0.58.2":
+"@unocss/preset-uno@0.58.2":
   version "0.58.2"
   resolved "https://registry.yarnpkg.com/@unocss/preset-uno/-/preset-uno-0.58.2.tgz#c220fb2c1edce5690599d765cefb9f678a4d5a4d"
   integrity sha512-9CrXrhN1yOaPv8z9jzQZ28qntB26t6eiY/LyQcYZf00AAz54JOyK+rDbArTuDXQBOcnDMTGgR7zEt19fLnSxrg==
