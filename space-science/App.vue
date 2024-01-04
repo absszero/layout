@@ -17,11 +17,11 @@
       </svg>
     </nav>
     <div class="content sm:flex sm:flex-col sm:items-center">
-      <div class="jumbotron">
-        <img class="absolute top-30 left-30 z-1"
+      <div class="jumbotron relative">
+        <img class="absolute left-20 sm:-bottom-10 sm:-left-50 z-1"
           src="https://freewebsitetemplates.com/preview/space-science/images/satellite.png" alt="">
-        <div class="z-2 sm:-right-50 relative flex flex-col items-center text-center text-white font-bold mt-45">
-          <h1 class="font-size-6xl">SOYUZ TMA-M</h1>
+        <div class="z-2 sm:-right-50 relative flex flex-col items-center text-center text-white font-bold">
+          <h1 class="font-size-6xl mt-45">SOYUZ TMA-M</h1>
           <h2 class="font-size-4xl mb-10">SPACECRAFT</h2>
           <div class="mb-40 sm:mb-20 w-35 bg-black p-3 text-gray-400"><a href="">READ MORE</a></div>
         </div>
