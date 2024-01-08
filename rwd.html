@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      h2 {
+        text-align: center;
+      }
+      iframe {
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+      <h2>440 x 640</h2>
+      <iframe class="source" src="./" width="440" height="640" ></iframe>
+      <h2>820 x 640</h2>
+      <iframe class="source" src="./" width="820" height="640" ></iframe>
+      <h2>1200 x 640</h2>
+      <iframe class="source" src="./" width="1200" height="640" ></iframe>
+  </body>
+  <script>
+    var source = window.location.search.slice(1);
+    source && document.getElementsByClassName("source").forEach(iframe => iframe.src = source);
+  </script>
+</html>
