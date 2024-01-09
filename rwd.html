@@ -5,12 +5,16 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
+      body {
+        background-color: #cccccc;
+      }
       h2 {
         text-align: center;
       }
       iframe {
         display: block;
         margin: 0 auto;
+        border: 0;
       }
     </style>
   </head>
@@ -24,6 +28,6 @@
   </body>
   <script>
     var source = window.location.search.slice(1);
-    source && document.getElementsByClassName("source").forEach(iframe => iframe.src = source);
+    source && Array.from(document.getElementsByClassName("source")).forEach(iframe => iframe.src = source);
   </script>
 </html>
