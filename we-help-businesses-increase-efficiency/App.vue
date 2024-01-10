@@ -18,12 +18,12 @@
         text="white"
         m="b-10"
         >Real Experience</h2>
-        <a
-        block uppercase
+          <a
+          block uppercase
         w="36"
         m="b-10"
         p="y-3 x-4"
-        bg="#f70647"
+        bg="[var(--color-pri)]"
         hover:bg="#de0540"
         un-text="center size-sm"
         font="semibold" href="">see more</a>
@@ -105,7 +105,7 @@
     <section class="counts"
       uppercase
       bg="white "
-      text="#43005d center"
+      text="center [var(--color-sec)]"
     >
       <h1
         p="y-20"
@@ -124,11 +124,11 @@
           <div>
             <h3
             font="bold"
-            text="#f70647 size-5xl md:size-6xl"
+            text="size-5xl md:size-6xl"
             >{{ count.numbers }}</h3>
             <span
             font="bold"
-            text=" size-sm"
+            text=" size-sm [var(--color-pri)]"
             >{{ count.title }}</span>
           </div>
         </li>
@@ -163,7 +163,7 @@
           p="2"
           m="b-3"
           w="full"
-          border="3 #f70647"
+          border="3 [var(--color-pri)]"
         type="text" placeholder="Name">
         <input
           text="size-16px"
@@ -171,7 +171,7 @@
           p="2"
           m="b-3"
           w="full"
-          border="3 #f70647"
+          border="3 [var(--color-pri)]"
         type="email" placeholder="Email">
         <textarea
           text="size-16px"
@@ -180,13 +180,13 @@
           m="b-3"
           w="full"
           rows="4"
-          border="3 #f70647"
+          border="3 [var(--color-pri)]"
         type="text" placeholder="Message"></textarea>
         <button
+        bg="[var(--color-pri)]"
         uppercase
         font="bold"
         text="size-sm"
-        bg="#f70647"
         p="x-7 y-2"
         >Submit</button>
       </form>
@@ -293,14 +293,15 @@ const counts = [
 </script>
 
 <style>
-html {
-  font-size: 16px;
+:root {
+  --color-pri: #f70647;
+  --color-sec: #43005d;
 }
 
 body {
   font-size: 18px;
   color: white;
-  background-color: #43005d;
+  background-color: var(--color-sec);
 }
 
 h1 {
@@ -311,7 +312,7 @@ h1 {
 }
 
 h2 {
-  color: #f70647;
+  color: var(--color-pri);
   font-size: 2rem;
   line-height: 2rem;
   font-weight: bold;
