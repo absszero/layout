@@ -50,7 +50,7 @@
 
           <div class="preview grid place-items-center place-content-center">
             <img class="block" src="https://freewebsitetemplates.com/preview/space-science/images/mars-rover.jpg" alt="">
-            <div class="i-carbon:play-filled font-size-5xl"></div>
+            <div class="i-carbon:play-filled text-size-5xl"></div>
           </div>
         </div>
         <div class="blog mt-10 sm:mt-0 sm:w-440px">

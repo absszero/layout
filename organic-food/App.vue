@@ -7,7 +7,7 @@
     <section bg="[var(--blue-1)]">
       <h2 p="t-5  md:l-10 lg:l-5" text="[var(--yellow-1)] center md:left">Organic Food</h2>
       <hr w="full" m="y-10 lg:y-5">
-      <div p="10 lg:x-5">
+      <div p="10">
         <div flex="md:~">
           <img w="md:1/2" src="https://images03.nicepage.com/c461c07a441a5d220e8feb1a/af1657a07c145b64a4922981/qs.jpg"
             alt="">
@@ -25,7 +25,9 @@
         <ul p="y-30" flex="~ col justify-between items-center md:row wrap">
           <li p="b-15" w="84" text="center" class="last:md:justify-self-start last:md:self-start" v-for="feature in features">
             <div>
-              <img m="x-a" bg="[var(--yellow-2)]" size="25" p="5" rounded="full" :src="feature.data" alt="">
+              <span m="x-a" rounded="full" block size="25" bg="[var(--yellow-2)]">
+                <img size="25" p="5" :src="feature.data" alt="">
+              </span>
               <h2 text="[var(--blue-2)]" m="t-5">{{ feature.title }}</h2>
               <p m="y-8" text="white">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.
