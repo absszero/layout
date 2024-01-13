@@ -4,187 +4,178 @@
   <link id="u-theme-google-font" rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
 
-  <section bg="cover top" class="contact-us md:[background-size:130%] md:[background-position:center-top]"
-    p="x-10 y-15 md:(l-50)" h="md:128">
-    <div text="center" bg="white/50" p="x-2 y-10 md:x-5" rounded="3xl">
-      <h1 text="md:4xl">We power innovation because we are innovators</h1>
-      <p m="y-10">Sample text. Click to select the Text Element.</p>
-      <form action="">
-        <input m="y-2" p="3" text="size-lg" font="semibold" w="full md:2/3" type="email" placeholder="YOUR EMAIL">
-        <button m="y-2" p="3" bg="[var(--green)]" text="size-lg white" font="semibold" w="full md:1/3">CONTACT US</button>
-      </form>
-    </div>
-  </section>
-
-  <section p="x-10 y-15" class="features">
-    <ul text="center" flex="~ col justify-between items-center md:row wrap">
-      <li rounded="3xl" p="5" m="y-5" w="84" bg="white/50" v-for="product in products">
-        <span m="x-a" size="20" bg="[var(--orange)]" block rounded="full">
-          <img m="x-a" p="5" :src="product.img" :alt="product.title">
-        </span>
-        <h3 text="size-xl" m="y-5" font="bold">{{ product.title }}</h3>
-        <p>Sample text. Click to select the Text Element.</p>
-      </li>
-    </ul>
-  </section>
-
-  <section bg="white" m="10">
-    <div bg="[var(--gray)]" p="5" flex="md:~ items-center">
-      <div w="md:1/2">
-        <h2>Our company has many years of experience!</h2>
-        <ul class="[&>li]:(m-y-10) [&>li>span]:(text-size-xl font-bold m-l-5 align-middle inline-block w-56)">
-          <li>
-            <img size="15" inline-block
-              src="./imgs/ok.png"
-              alt="">
-            <span>Content Optimization</span>
-          </li>
-          <li>
-            <img size="15" inline-block
-            src="./imgs/ok.png"
-              alt="">
-            <span>Branding Strategy</span>
-          </li>
-          <li>
-            <img size="15" inline-block
-            src="./imgs/ok.png"
-              alt="">
-            <span>Better than normal ads</span>
-          </li>
-        </ul>
-        <p>
-          As a result of our philosophy to be the most forward thinking home cleaning company and our focus on
-          understanding
-          customer needs, we have and will continue to expand across the UK with franchises in the southwest of England to
-          the north east of Scotland with over 50 territories nationwide.
-        </p>
+  <div max="w-1280px" m="xa">
+    <section bg="cover top" class="contact-us md:[background-size:130%] md:[background-position:center-top]"
+      p="x-10 y-15 md:(l-50)" h="md:128">
+      <div text="center" bg="white/50" p="x-2 y-10 md:x-5" rounded="3xl">
+        <h1 text="md:4xl">We power innovation because we are innovators</h1>
+        <p m="y-10">Sample text. Click to select the Text Element.</p>
+        <form action="">
+          <input m="y-2" p="3" text="size-lg" font="semibold" w="full md:2/3" type="email" placeholder="YOUR EMAIL">
+          <button m="y-2" p="3" bg="[var(--green)]" text="size-lg white" font="semibold" w="full md:1/3">CONTACT US</button>
+        </form>
       </div>
-      <div m="5" w="md:1/2">
-        <img m="xa" size="72 lg:104" rounded="full" object="cover left"
-          src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/07dfdfa5239551ee9e51616d/front-view-smiley-elegant-businesswoman-using-laptop-with-copy-space.jpg"
-          alt="">
-      </div>
-    </div>
-  </section>
-
-  <section p="10" text="center">
-    <h2 text="md:size-4xl">Together we can envision, inspire and transform your business</h2>
-    <ul text="white" flex="~ col md:row items-center wrap justify-between">
-      <li class="[&>h3]:last:text-[var(--orange)]" text="last:black" m="y-5" p="10 md:5" rounded="3xl" w="84" h="64" :bg="rate.bg" v-for="rate in rates">
-        <h3 m="y-5" text="size-2xl md:size-7xl" font="bold">{{ rate.percentage }}</h3>
-        <p text="lg">{{ rate.text }}</p>
-      </li>
-    </ul>
-  </section>
-
-  <section m="10">
-    <div bg="[var(--gray)]" p="x-2 y-5" flex="md:~ items-center justify-between">
-      <div class="[&>*]:m-y-5" m="md:l-5" w="md:1/2">
-        <h2 text="md:size-3xl">About Our Company</h2>
-        <p text="gray-500">Sample text. Click to select the text box. Click again or double click to start editing the text. Image from </p>
-        <p>Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart
-          money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes. You day
-          real less till dear read. </p>
-        <ul class="[&>li>span]:(m-x-1 text-[var(--orange)])" font="light" text=" size-xl">
-          <li><span>►</span>Support via E-mail and Phone</li>
-          <li><span>►</span>Multi-Language Support</li>
-        </ul>
-          <a font="bold" tracking="wide" un-text="size-2xl hover:[var(--green)]" href=""><button align-middle size="8" class="i-carbon:phone-filled" text="[var(--green)]" />+1 (234) 567-8910</a>
-      </div>
-      <div m="5" w="md:1/2">
-        <img m="xa" size="72 lg:104" rounded="full" object="cover"
-      src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/abd943c656105541872fcdd1/portrait-beautiful-caucasian-woman-laughing-covering-face-with-hand-chuckle-something-funny-express-happy-positive-emotions-white-wall.jpg"
-      alt="">
-      </div>
-    </div>
-  </section>
-
-  <section bg="[var(--green)]" text="white center" p="10" class="[&>*]:m-y-5">
-    <h3 text="size-2xl" >Add more speed to your website</h3>
-    <h2 text="md:size-4xl">Your success in the industry is our mission</h2>
-    <p>Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money
-      hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes. You day real less
-      till dear read.</p>
-    <a bg="black" font="bold" p="x-10 y-3" un-text="white" href="">READ MORE</a>
-  </section>
-
-  <section>
-    <h3 p="10" font="bold" text="size-2xl md:size-3xl" >Our Modern Office Space</h3>
-    <ul flex="md:~ wrap">
-      <li w="md:1/2" overflow-hidden v-for="space in spaces">
-        <img object-cover class="transition hover:scale-110 duration-500" w="full" h="96" :src="space" alt="">
-      </li>
-    </ul>
-  </section>
-
-  <section bg="[var(--gray)]" p="10" text="center" class="[&>*]:m-y-5">
-    <div>
-      <img m="x-a"  object="cover [-35px]" size="72" rounded="full"
-      src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/ee6258ad779a50aeb60a64b7/fashionable-young-redhead-woman-with-braid-tattoo-shoulder-having-rest-indoors.jpg"
-      alt="">
-    </div>
-    <p text="size-lg">
-      Faucibus vitae aliquet nec ullamcorper sit amet. Auctor eu augue ut lectus arcu bibendum at varius. Ac turpis
-      egestas sed tempus urna et pharetra pharetra. Lectus magna fringilla urna porttitor rhoncus dolor purus non. Lorem
-      dolor sed viverra ipsum nunc. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus.
-    </p>
-    <img m="x-a" src="https://images03.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/bb37292b528c5f3f8bfd73f3/___._.png" alt="">
-    <span font="bold" text="size-xl">Stella Larson</span>
-  </section>
-
-  <section p="10" gap="md:5" class="[&>*]:(w-full h-72 md:h-80 object-cover)" flex="md:~ wrap">
-    <img w="md:1/5"
-      src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/20cebe00b3975420afb850e2/business-sucessful-businessman-working-with-laptop-using-computer-smiling-standing.jpg"
-      alt="">
-    <img w="md:1/5"
-      src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/8dfd94ea91d15a07a4d8993a/41dead2e-89b8-4788-859e-d96b8f1d9713.jpg"
-      alt="">
-    <img w="md:1/2"
-      src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/e5bef7faa99e55f19bf51030/elegant-smiling-man-typing-computer.jpg"
-      alt="">
-    <div bg="[var(--gray)]" p="5" h="80"  w="md:1/2">
-      <h3 text="size-2xl" font="bold">Our perfect team</h3>
-      <p p="y-5" >Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart
-        money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes. Image
-        from </p>
-      <a font="bold" un-text="white size-md" bg="black" p="2 x-10" href="">READ MORE</a>
-    </div>
-    <img w="md:1/5"
-      src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/ee6258ad779a50aeb60a64b7/fashionable-young-redhead-woman-with-braid-tattoo-shoulder-having-rest-indoors.jpg"
-      alt="">
-    <img w="md:1/5"
-      src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/29fd0360109159e1970d573a/woman-sitting-sofa-with-laptop-legs.jpg"
-      alt="">
-  </section>
-
-  <section bg="[var(--green)]" text="white center" p="10">
-    <h2>Featured clients</h2>
-    <p m="y-5">Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex.</p>
-    <ul flex="~ col items-center md:row wrap">
-      <li  w="72 md:1/2" m="y-5 md:y-10" v-for="client in clients">
-        <img w="40" h="20" m="x-a" :src="client" alt="">
-        <p>Sample text. Click to select the Text Element.</p>
-      </li>
-    </ul>
-  </section>
-
-  <section class="contacts" p="10 md:y-20">
-    <div bg="white/50" rounded="3xl" text="center" p="5 md:10" gap="5" flex="~ col items-center">
-      <a font="bold" un-text="white" p="3 x-10" bg="[var(--orange)]">CONTACTS</a>
-      <h2>Together for a business lifestyle</h2>
-      <p>We are here to meet any business need and to promote your company online!</p>
-      <ul text="size-xl">
-        <li v-for="contact in contacts">
-          <span font="bold" text="" class="after:content-[':']" >{{ contact.type }}</span>
-          <span>{{ contact.text }}</span>
+    </section>
+    <section p="x-10 y-15" class="features">
+      <ul text="center" flex="~ col justify-between items-center md:row wrap">
+        <li rounded="3xl" p="5" m="y-5" w="84" bg="white/50" v-for="product in products">
+          <span m="x-a" size="20" bg="[var(--orange)]" block rounded="full">
+            <img m="x-a" p="5" :src="product.img" :alt="product.title">
+          </span>
+          <h3 text="size-xl" m="y-5" font="bold">{{ product.title }}</h3>
+          <p>Sample text. Click to select the Text Element.</p>
         </li>
       </ul>
-    </div>
-  </section>
-
-  <footer bg="#333333" p="10">
-    <p text="center white">Sample text. Click to select the Text Element.</p>
-  </footer>
+    </section>
+    <section bg="white" m="10">
+      <div bg="[var(--gray)]" p="5" flex="md:~ items-center">
+        <div w="md:1/2">
+          <h2>Our company has many years of experience!</h2>
+          <ul class="[&>li]:(m-y-10) [&>li>span]:(text-size-xl font-bold m-l-5 align-middle inline-block w-56)">
+            <li>
+              <img size="15" inline-block
+                src="./imgs/ok.png"
+                alt="">
+              <span>Content Optimization</span>
+            </li>
+            <li>
+              <img size="15" inline-block
+              src="./imgs/ok.png"
+                alt="">
+              <span>Branding Strategy</span>
+            </li>
+            <li>
+              <img size="15" inline-block
+              src="./imgs/ok.png"
+                alt="">
+              <span>Better than normal ads</span>
+            </li>
+          </ul>
+          <p>
+            As a result of our philosophy to be the most forward thinking home cleaning company and our focus on
+            understanding
+            customer needs, we have and will continue to expand across the UK with franchises in the southwest of England to
+            the north east of Scotland with over 50 territories nationwide.
+          </p>
+        </div>
+        <div m="5" w="md:1/2">
+          <img m="xa" size="72 lg:104" rounded="full" object="cover left"
+            src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/07dfdfa5239551ee9e51616d/front-view-smiley-elegant-businesswoman-using-laptop-with-copy-space.jpg"
+            alt="">
+        </div>
+      </div>
+    </section>
+    <section p="10" text="center">
+      <h2 text="md:size-4xl">Together we can envision, inspire and transform your business</h2>
+      <ul m="y-5" text="white" flex="~ col md:row items-center wrap justify-between">
+        <li class="[&>h3]:last:text-[var(--orange)]" text="last:black" m="y-5" p="10 md:5" rounded="3xl" w="84" h="64" :bg="rate.bg" v-for="rate in rates">
+          <h3 m="y-5" text="size-2xl md:size-7xl" font="bold">{{ rate.percentage }}</h3>
+          <p text="lg">{{ rate.text }}</p>
+        </li>
+      </ul>
+    </section>
+    <section m="10">
+      <div bg="[var(--gray)]" p="x-2 y-5" flex="md:~ items-center justify-between">
+        <div class="[&>*]:m-y-5" m="md:l-5" w="md:1/2">
+          <h2 text="md:size-3xl">About Our Company</h2>
+          <p text="gray-500">Sample text. Click to select the text box. Click again or double click to start editing the text. Image from </p>
+          <p>Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart
+            money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes. You day
+            real less till dear read. </p>
+          <ul class="[&>li>span]:(m-x-1 text-[var(--orange)])" font="light" text=" size-xl">
+            <li><span>►</span>Support via E-mail and Phone</li>
+            <li><span>►</span>Multi-Language Support</li>
+          </ul>
+            <a font="bold" tracking="wide" un-text="size-2xl hover:[var(--green)]" href=""><button align-middle size="8" class="i-carbon:phone-filled" text="[var(--green)]" />+1 (234) 567-8910</a>
+        </div>
+        <div m="5" w="md:1/2">
+          <img m="xa" size="72 lg:104" rounded="full" object="cover"
+        src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/abd943c656105541872fcdd1/portrait-beautiful-caucasian-woman-laughing-covering-face-with-hand-chuckle-something-funny-express-happy-positive-emotions-white-wall.jpg"
+        alt="">
+        </div>
+      </div>
+    </section>
+    <section bg="[var(--green)]" text="white center" p="10" class="[&>*]:m-y-5">
+      <h3 text="size-2xl" >Add more speed to your website</h3>
+      <h2 text="md:size-4xl">Your success in the industry is our mission</h2>
+      <p>Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money
+        hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes. You day real less
+        till dear read.</p>
+      <a bg="black" font="bold" block w="64"  m="x-a" p="y-3" un-text="white" href="">READ MORE</a>
+    </section>
+    <section>
+      <h3 p="10" font="bold" text="size-2xl md:size-3xl" >Our Modern Office Space</h3>
+      <ul flex="md:~ wrap">
+        <li w="md:1/2" overflow-hidden v-for="space in spaces">
+          <img object-cover class="transition hover:scale-110 duration-500" w="full" h="96" :src="space" alt="">
+        </li>
+      </ul>
+    </section>
+    <section bg="[var(--gray)]" p="10" text="center" class="[&>*]:m-y-5">
+      <div>
+        <img m="x-a"  object="cover [-35px]" size="72" rounded="full"
+        src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/ee6258ad779a50aeb60a64b7/fashionable-young-redhead-woman-with-braid-tattoo-shoulder-having-rest-indoors.jpg"
+        alt="">
+      </div>
+      <p text="size-lg">
+        Faucibus vitae aliquet nec ullamcorper sit amet. Auctor eu augue ut lectus arcu bibendum at varius. Ac turpis
+        egestas sed tempus urna et pharetra pharetra. Lectus magna fringilla urna porttitor rhoncus dolor purus non. Lorem
+        dolor sed viverra ipsum nunc. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus.
+      </p>
+      <img m="x-a" src="https://images03.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/bb37292b528c5f3f8bfd73f3/___._.png" alt="">
+      <span font="bold" text="size-xl">Stella Larson</span>
+    </section>
+    <section p="5" gap="md:5 lg:10" class="[&>*]:(w-full h-72 md:h-80 object-cover m-y-5 md:m-y-0)" flex="md:~ wrap justify-center">
+      <img w="md:1/5"
+        src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/20cebe00b3975420afb850e2/business-sucessful-businessman-working-with-laptop-using-computer-smiling-standing.jpg"
+        alt="">
+      <img w="md:1/5"
+        src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/8dfd94ea91d15a07a4d8993a/41dead2e-89b8-4788-859e-d96b8f1d9713.jpg"
+        alt="">
+      <img w="md:1/2"
+        src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/e5bef7faa99e55f19bf51030/elegant-smiling-man-typing-computer.jpg"
+        alt="">
+      <div bg="[var(--gray)]" p="5" h="80"  w="md:1/2">
+        <h3 text="size-2xl" font="bold">Our perfect team</h3>
+        <p p="y-5" >Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart
+          money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes. Image
+          from </p>
+        <a font="bold" un-text="white size-md" bg="black" p="2 x-10" href="">READ MORE</a>
+      </div>
+      <img w="md:1/5"
+        src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/ee6258ad779a50aeb60a64b7/fashionable-young-redhead-woman-with-braid-tattoo-shoulder-having-rest-indoors.jpg"
+        alt="">
+      <img w="md:1/5"
+        src="https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/29fd0360109159e1970d573a/woman-sitting-sofa-with-laptop-legs.jpg"
+        alt="">
+    </section>
+    <section bg="[var(--green)]" text="white center" p="10">
+      <h2>Featured clients</h2>
+      <p m="y-5">Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex.</p>
+      <ul flex="~ col items-center md:row wrap">
+        <li  w="72 md:1/2" m="y-5 md:y-10" v-for="client in clients">
+          <img w="40" h="20" m="x-a" :src="client" alt="">
+          <p>Sample text. Click to select the Text Element.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="contacts" p="10 md:y-20">
+      <div bg="white/50" rounded="3xl" text="center" p="5 md:10" gap="5" flex="~ col items-center">
+        <a font="bold" un-text="white" p="3 x-10" bg="[var(--orange)]">CONTACTS</a>
+        <h2>Together for a business lifestyle</h2>
+        <p>We are here to meet any business need and to promote your company online!</p>
+        <ul text="size-xl">
+          <li v-for="contact in contacts">
+            <span font="bold" text="" class="after:content-[':']" >{{ contact.type }}</span>
+            <span>{{ contact.text }}</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer bg="#333333" p="10">
+      <p text="center white">Sample text. Click to select the Text Element.</p>
+    </footer>
+  </div>
 </template>
 
 <script setup>
