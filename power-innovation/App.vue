@@ -256,6 +256,10 @@ const contacts = [
     text: 'template@sample.com ',
   },
 ];
+
+const contributors = [
+  1, 2
+]
 </script>
 
 <style>
